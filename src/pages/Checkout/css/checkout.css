@@ -1,0 +1,24 @@
+/* ghế thường */
+.ghe {
+  @apply md:w-6 xl:w-8 2xl:w-10 md:h-8 xl:h-6 2xl:h-6 m-1 mt-4 xl:p-2 2xl:p-4 flex-col justify-center items-center shadow-xl bg-gray-900 text-gray-100 rounded cursor-pointer;
+}
+/* ghế đã đặt */
+.gheDaDat {
+  @apply bg-blue-300 opacity-70 cursor-no-drop;
+}
+/* ghế đang đặt */
+.gheDangDat {
+  @apply bg-green-600 !important;
+}
+/* ghế VIP */
+.gheVip {
+  @apply bg-orange-600;
+}
+/* ghế chính tài khoản người dùng đặt */
+.gheUserDat {
+  @apply bg-gray-100 border-2 border-blue-300 text-blue-300  !important;
+}
+/* ghế khách khác đang đặt cùng lúc */
+.gheDatCungLuc {
+  @apply bg-violet-500 cursor-no-drop !important;
+}

@@ -1,0 +1,5 @@
+export const GET_LIST_FILM = "GET_LIST_FILM";
+export const SET_FILM_DANG_CHIEU = "SET_FILM_DANG_CHIEU";
+export const SET_FILM_SAP_CHIEU = "SET_FILM_SAP_CHIEU";
+export const GET_DETAIL_FILM = "GET_DETAIL_FILM";
+export const GET_INFO_FILM = "GET_INFO_FILM";

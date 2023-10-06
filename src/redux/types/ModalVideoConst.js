@@ -1,0 +1,2 @@
+export const OPEN_MODAL_VIDEO = "OPEN_MODAL_VIDEO";
+export const CLOSE_MODAL_VIDEO = "CLOSE_MODAL_VIDEO";
